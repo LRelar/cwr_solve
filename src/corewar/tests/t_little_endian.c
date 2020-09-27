@@ -6,7 +6,7 @@
 /*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/05 11:35:54 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/26 17:15:14 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/27 12:53:20 by mschimme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,12 +114,21 @@ int	main(void)
 /*
 ** Этот кусок тестирует макрос на приближенных к реальным данных
 */
-	uint8_t		buff[4] = "\x74\xB7\x7e\x00";
-	int			*ptr = (int *)&buff[0];
-	uint8_t			*refptr =(int *)&buff[0];
+	// uint8_t		buff[4] = "\x74\xB7\x7e\x00";
+	// int			*ptr = (int *)&buff[0];
+	// uint8_t			*refptr =(int *)&buff[0];
 
-	int			l = bytecode_to_int32((const uint8_t *)refptr, 3);
-	int			k = ft_swap_endian(*ptr, 3);
+	// int			l = bytecode_to_int32((const uint8_t *)refptr, 3);
+	// int			k = ft_swap_endian(*ptr, 3);
+
+	RTP k, l;
+	RTP				r[] = {0xFF000000LL, 0x0FF00000LL, 0x00FF0000LL, 0x000FF000LL, 0x0000FF00LL, 0x00000FF0LL, 0x000000FFLL};
+	for (int i = 0; i < 7; i++)
+	{
+		k = ft_swap_endian(r[i], 8);
+		l = bytecode_to_int64((uint8_t *)&r[i], 8);
+		printf("num = %+.10lld{%.16llX}\t k == %+.10lld(%.16llX) l = %+.10lld(%.16llX)\n", r[i], r[i], k, k, l, l);
+	}
 	/*
 	** Этот кусок тестирует макрос с уже проверенной функцией флипа с дополнением
 	*/
