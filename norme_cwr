@@ -1,0 +1,1356 @@
+Norme: ./src/corewar/tests/t_magic.txt
+Warning: Not a valid file
+Norme: ./src/corewar/tests/WnP_Tolstoy.txt
+Warning: Not a valid file
+Norme: ./src/corewar/t_compiler.sh
+Warning: Not a valid file
+Norme: ./src/corewar/compiler.sh
+Warning: Not a valid file
+Norme: ./src/corewar/tests/t_cost_life.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_cost_life.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_itoal.c
+Error: file must end with a single empty line
+Error (line 16): function main has 52 lines
+Error (line 16): declarations in main must be at the top of the function
+Error (line 16): declarations must be followed by one empty line in main
+Error (line 20, col 8): std is instanciated during declaration
+Error (line 21, col 8): ctm is instanciated during declaration
+Error (line 31): 2 assignations
+Error (line 47): multiple empty lines
+Error (line 49): 2 instructions
+Error (line 49): for detected
+Error (line 49, col 10): i is instanciated during declaration
+Error (line 53): 2 assignations
+Error (line 67): Empty line
+Error (line 68): spaces at the end of line
+Error (line 70, col 0): no newline after block
+Norme: ./src/corewar/tests/t_size.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_size.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_while_preinc.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_while_preinc.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_gnl.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_gnl.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_check_cast.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_check_cast.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_rotlist_rec.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_rotlist_rec.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_endian.c
+Error: file must end with a single empty line
+Error (line 17): spaces at the end of line
+Error (line 17): bad indentation
+Error (line 18, col 0): no newline after block
+Norme: ./src/corewar/tests/t_structs.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_structs.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_enum.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_enum.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_eval_args.c
+Error: file must end with a single empty line
+Error (line 19, col 11): tree is instanciated during declaration
+Error (line 20, col 11): vacant is instanciated during declaration
+Error (line 29, col 0): no newline after block
+Norme: ./src/corewar/tests/t_elem_iter.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_elem_iter.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_tree_create_small.c
+Error: global scope bad aligned
+Error (line 17): preprocessor block must be followed by one empty line
+Error (line 18): comment not well formatted
+Error (line 39): function main has 33 lines
+Error (line 39): declarations in main must be at the top of the function
+Error (line 39): declarations must be followed by one empty line in main
+Error (line 39, col 0): main has 8 variables
+Error (line 42, col 11): lifereg is instanciated during declaration
+Error (line 43, col 11): cycle_arr is instanciated during declaration
+Error (line 44): C++ comment
+Error (line 45, col 9): k is instanciated during declaration
+Error (line 46, col 13): dvas_ptr is instanciated during declaration
+Error (line 47, col 13): next is instanciated during declaration
+Error (line 48): spaces at the end of line
+Error (line 49, col 12): vas_ptr is instanciated during declaration
+Error (line 55): 2 instructions
+Error (line 55): for detected
+Error (line 55, col 10): i is instanciated during declaration
+Norme: ./src/corewar/tests/t_recursion.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_recursion.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_conf.c
+Error: file must end with a single empty line
+Error (line 19, col 0): no newline after block
+Norme: ./src/corewar/tests/t_term_control.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 16): multiple empty lines
+Error (line 17): bad spacing before ft_get_term_width
+Error (line 17): bad spacing after ft_get_term_width
+Error (line 30): preprocessor block must be followed by one empty line
+Error (line 31): function main has 26 lines
+Error (line 31): bad spacing before main
+Error (line 44, col 15): bad character after ,
+Error (line 51): Empty line
+Error (line 52): comment not well placed
+Error (line 57): Empty line
+Error (line 59, col 0): no newline after block
+Norme: ./src/corewar/tests/t_bool.c
+Error: file must end with a single empty line
+Error (line 13): Space before function name
+Error (line 13): declarations must be followed by one empty line in main
+Error (line 17): bad indentation
+Error (line 18, col 0): no newline after block
+Norme: ./src/corewar/tests/t_static_main.c
+Error: file must end with a single empty line
+Error (line 15): declaration of ft_change_struct forbidden in .c
+Error (line 16): declaration of ft_get_value forbidden in .c
+Error (line 18): multiple empty lines
+Error (line 19): multiple empty lines
+Error (line 20): bad spacing before ft_change_value
+Error (line 27, col 9): st_ptr is instanciated during declaration
+Error (line 31): Empty line
+Error (line 32, col 1): missing space after return
+Error (line 33, col 0): no newline after block
+Norme: ./src/corewar/tests/t_bloom_range.c
+Error: file must end with a single empty line
+Error (line 16): preprocessor block must be followed by one empty line
+Error (line 16): parameterized macros are forbidden
+Error (line 16): define not upcase
+Error (line 16): multiline define
+Error (line 17): line has 136 characters
+Error (line 19): parameterized macros are forbidden
+Error (line 20): parameterized macros are forbidden
+Error (line 21): parameterized macros are forbidden
+Error (line 23): multiple empty lines
+Error (line 24): C++ comment
+Error (line 25): C++ comment
+Error (line 26): C++ comment
+Error (line 26): line has 149 characters
+Error (line 27): C++ comment
+Error (line 28): C++ comment
+Error (line 29): C++ comment
+Error (line 30): C++ comment
+Error (line 31): C++ comment
+Error (line 32): C++ comment
+Error (line 33): C++ comment
+Error (line 34): C++ comment
+Error (line 35): C++ comment
+Error (line 36): C++ comment
+Error (line 37): C++ comment
+Error (line 38): C++ comment
+Error (line 40): C++ comment
+Error (line 41): C++ comment
+Error (line 43): Space before function name
+Error (line 43): Spacing after function name
+Error (line 45): C++ comment
+Error (line 45): bad indentation
+Error (line 47, col 0): no newline after block
+Norme: ./src/corewar/tests/t_tree_create.c
+Error: global scope bad aligned
+Error (line 19): comment not well formatted
+Error (line 24): comment not well formatted
+Error (line 58): function main has 41 lines
+Error (line 58): declarations in main must be at the top of the function
+Error (line 58): declarations must be followed by one empty line in main
+Error (line 58, col 0): main has 8 variables
+Error (line 61, col 11): lifereg is instanciated during declaration
+Error (line 66, col 11): cycle_arr is instanciated during declaration
+Error (line 71): C++ comment
+Error (line 72, col 9): k is instanciated during declaration
+Error (line 73, col 13): dvas_ptr is instanciated during declaration
+Error (line 74, col 13): next is instanciated during declaration
+Error (line 75): spaces at the end of line
+Error (line 76, col 12): vas_ptr is instanciated during declaration
+Error (line 82): 2 instructions
+Error (line 82): for detected
+Error (line 82, col 10): i is instanciated during declaration
+Norme: ./src/corewar/tests/t_argv.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_argv.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_atoil.c
+Error: file must end with a single empty line
+Error (line 16): function main has 28 lines
+Error (line 16): declarations in main are bad aligned
+Error (line 16): declarations in main must be at the top of the function
+Error (line 16, col 0): main has 7 variables
+Error (line 18, col 7): longmax is instanciated during declaration
+Error (line 19, col 7): longmin is instanciated during declaration
+Error (line 20, col 7): overflow is instanciated during declaration
+Error (line 21, col 7): underflow is instanciated during declaration
+Error (line 22, col 9): flag is instanciated during declaration
+Error (line 24, col 11): std is instanciated during declaration
+Error (line 25, col 11): ctm is instanciated during declaration
+Error (line 27): 2 assignations
+Error (line 31): Empty line
+Error (line 33): 2 assignations
+Error (line 36): Empty line
+Error (line 37): 2 assignations
+Error (line 41): Empty line
+Error (line 44): Empty line
+Error (line 46, col 0): no newline after block
+Norme: ./src/corewar/tests/t_const_f.c
+Error: file must end with a single empty line
+Error (line 15): multiple empty lines
+Error (line 16): multiple empty lines
+Error (line 17): bad spacing before main
+Error (line 19, col 9): cd is instanciated during declaration
+Error (line 22, col 0): no newline after block
+Norme: ./src/corewar/tests/t_little_endian.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_little_endian.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_calc_op_length.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_calc_op_length.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_magic_read.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_magic_read.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_ptrs.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_ptrs.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_chaingun.c
+Error: global scope bad aligned
+Error (line 19): declaration of t_gun_rout forbidden in .c
+Error (line 20): declaration of ammo forbidden in .c
+Error (line 20, col 20): ammo have not a good prefix.
+Error (line 22, col 10): space after pointer
+Error (line 31): declarations must be followed by one empty line in main
+Error (line 33, col 11): space after pointer
+Error (line 33, col 13): tratata is instanciated during declaration
+Error (line 34): spaces at the end of line
+Error (line 37): Empty line
+Error (line 38, col 1): no empty line before block
+Norme: ./src/corewar/tests/t_ctrl_detect.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_ctrl_detect.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_gen_sort.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 15): declaration of t_datacmp_rout forbidden in .c
+Error (line 17): declaration of Struct forbidden in .c
+Error (line 26, col 7): i is instanciated during declaration
+Error (line 35): bad indentation
+Error (line 36): bad indentation
+Error (line 37): bad indentation
+Error (line 38): bad indentation
+Error (line 39): bad indentation
+Error (line 40): bad indentation
+Error (line 44): bad spacing after ft_fill_arr
+Error (line 47, col 7): i is instanciated during declaration
+Error (line 55): bad spacing before ft_sort_by_id
+Error (line 63): line has 87 characters
+Error (line 63, col 14): ptr_arr is instanciated during declaration
+Error (line 63, col 58): missing space around *
+Error (line 65, col 10): Spacing after call to ft_bzero
+Error (line 70): spaces at the end of line
+Error (line 71): Empty line
+Error (line 72, col 0): no empty line before block
+Error (line 72, col 0): no newline after block
+Norme: ./src/corewar/tests/t_overflow.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_overflow.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_keymap.c
+Error: 42 header not at top of the file
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 7): Space before function name
+Error (line 7): declarations in createStringForKey are bad aligned
+Error (line 7): bad spacing before createStringForKey
+Error (line 7): declarations in createStringForKey must be at the top of the function
+Error (line 7, col 0): createStringForKey not unixcase
+Error (line 7, col 0): createStringForKey has 6 variables
+Error (line 7, col 31): keyCode not unixcase
+Error (line 9): must begin only by tabulations
+Error (line 9): bad indentation
+Error (line 9, col 22): currentKeyboard not unixcase
+Error (line 9, col 22): currentKeyboard is instanciated during declaration
+Error (line 10): must begin only by tabulations
+Error (line 10): bad indentation
+Error (line 10, col 14): layoutData not unixcase
+Error (line 10, col 14): layoutData is instanciated during declaration
+Error (line 11): must begin only by tabulations
+Error (line 11): bad indentation
+Error (line 12): must begin only by tabulations
+Error (line 13): must begin only by tabulations
+Error (line 13): bad indentation
+Error (line 13, col 28): keyboardLayout not unixcase
+Error (line 14): must begin only by tabulations
+Error (line 14): bad indentation
+Error (line 16): must begin only by tabulations
+Error (line 16): bad indentation
+Error (line 16, col 11): keysDown not unixcase
+Error (line 16, col 11): keysDown is instanciated during declaration
+Error (line 17): must begin only by tabulations
+Error (line 17): bad indentation
+Error (line 18): must begin only by tabulations
+Error (line 18): bad indentation
+Error (line 18, col 17): realLength not unixcase
+Error (line 20): must begin only by tabulations
+Error (line 20): bad indentation
+Error (line 21): must begin only by tabulations
+Error (line 22): must begin only by tabulations
+Error (line 23): must begin only by tabulations
+Error (line 24): must begin only by tabulations
+Error (line 25): must begin only by tabulations
+Error (line 26): must begin only by tabulations
+Error (line 27): must begin only by tabulations
+Error (line 28): must begin only by tabulations
+Error (line 29): must begin only by tabulations
+Error (line 30): spaces at the end of line
+Error (line 30): must begin only by tabulations
+Error (line 30): bad indentation
+Error (line 31): Empty line
+Error (line 32): must begin only by tabulations
+Error (line 32): bad indentation
+Error (line 32, col 11): missing parentheses in return statement
+Error (line 35): comment not well formatted
+Error (line 37): Space before function name
+Error (line 37): function keyCodeForChar has 34 lines
+Error (line 37): declarations in keyCodeForChar are bad aligned
+Error (line 37): bad spacing before keyCodeForChar
+Error (line 37): declarations in keyCodeForChar must be at the top of the function
+Error (line 37): declarations must be followed by one empty line in keyCodeForChar
+Error (line 37, col 0): keyCodeForChar not unixcase
+Error (line 37, col 0): keyCodeForChar has 6 variables
+Error (line 39): must begin only by tabulations
+Error (line 39): bad indentation
+Error (line 39, col 34): charToCodeDict not unixcase
+Error (line 40): must begin only by tabulations
+Error (line 40): bad indentation
+Error (line 41): must begin only by tabulations
+Error (line 41): bad indentation
+Error (line 41, col 12): character is instanciated during declaration
+Error (line 42): must begin only by tabulations
+Error (line 42): bad indentation
+Error (line 42, col 16): charStr not unixcase
+Error (line 42, col 16): charStr is instanciated during declaration
+Error (line 44): comment not well placed
+Error (line 44): comment not well formatted
+Error (line 44): must begin only by tabulations
+Error (line 44): bad indentation
+Error (line 45): missing newline after if
+Error (line 45): must begin only by tabulations
+Error (line 45): bad indentation
+Error (line 45, col 32): no newline before block
+Error (line 46): must begin only by tabulations
+Error (line 46): bad indentation
+Error (line 47): must begin only by tabulations
+Error (line 47): bad indentation
+Error (line 48): must begin only by tabulations
+Error (line 49): line has 89 characters
+Error (line 49): must begin only by tabulations
+Error (line 50): must begin only by tabulations
+Error (line 51): 2 instructions
+Error (line 51): missing newline after if
+Error (line 51): must begin only by tabulations
+Error (line 51): bad indentation
+Error (line 51, col 43): missing parentheses in return statement
+Error (line 53): comment not well placed
+Error (line 53): comment not well formatted
+Error (line 53): must begin only by tabulations
+Error (line 53): bad indentation
+Error (line 54): 2 instructions
+Error (line 54): for detected
+Error (line 54): must begin only by tabulations
+Error (line 54): bad indentation
+Error (line 54, col 34): no newline before block
+Error (line 55): must begin only by tabulations
+Error (line 55): bad indentation
+Error (line 55, col 24): string is instanciated during declaration
+Error (line 56): missing newline after if
+Error (line 56): must begin only by tabulations
+Error (line 56): bad indentation
+Error (line 56, col 32): no newline before block
+Error (line 57): must begin only by tabulations
+Error (line 57): bad indentation
+Error (line 58): must begin only by tabulations
+Error (line 58): bad indentation
+Error (line 59): must begin only by tabulations
+Error (line 59): bad indentation
+Error (line 60): must begin only by tabulations
+Error (line 60): bad indentation
+Error (line 61): must begin only by tabulations
+Error (line 61): bad indentation
+Error (line 62): Empty line
+Error (line 63): must begin only by tabulations
+Error (line 63): bad indentation
+Error (line 64): Empty line
+Error (line 65): comment not well formatted
+Error (line 65): must begin only by tabulations
+Error (line 65): bad indentation
+Error (line 66): missing newline after if
+Error (line 66): must begin only by tabulations
+Error (line 66): bad indentation
+Error (line 67): must begin only by tabulations
+Error (line 67): bad indentation
+Error (line 67, col 62): no newline before block
+Error (line 68): must begin only by tabulations
+Error (line 68): bad indentation
+Error (line 69): must begin only by tabulations
+Error (line 69): bad indentation
+Error (line 70): Empty line
+Error (line 71): must begin only by tabulations
+Error (line 71): bad indentation
+Error (line 72): must begin only by tabulations
+Error (line 72): bad indentation
+Error (line 72, col 11): missing parentheses in return statement
+Norme: ./src/corewar/tests/t_undertake.c
+Error (line 18): multiple empty lines
+Error (line 19): comment not well formatted
+Error (line 30): function main has 38 lines
+Error (line 30): declarations in main must be at the top of the function
+Error (line 30): declarations must be followed by one empty line in main
+Error (line 30, col 0): main has 8 variables
+Error (line 33, col 11): lifereg is instanciated during declaration
+Error (line 36, col 11): iterator is instanciated during declaration
+Error (line 37, col 9): k is instanciated during declaration
+Error (line 38, col 13): dvas_ptr is instanciated during declaration
+Error (line 39, col 13): next is instanciated during declaration
+Error (line 40): spaces at the end of line
+Error (line 41, col 12): vas_ptr is instanciated during declaration
+Error (line 48): 2 instructions
+Error (line 48): for detected
+Error (line 48, col 10): i is instanciated during declaration
+Error (line 50, col 2): missing space after while
+Error (line 59, col 2): missing space after while
+Error (line 67): bad indentation
+Error (line 68): bad indentation
+Error (line 69): bad indentation
+Norme: ./src/corewar/tests/t_atoi_iterator.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 15): bad spacing after ft_numvol
+Error (line 20): spaces at the end of line
+Error (line 26): multiple empty lines
+Error (line 27): bad spacing before main
+Error (line 29, col 11): k is instanciated during declaration
+Error (line 30, col 11): v is instanciated during declaration
+Error (line 33): Empty line
+Error (line 36): Empty line
+Error (line 39): Empty line
+Error (line 41, col 0): no newline after block
+Norme: ./src/corewar/tests/t_inc_arr.c
+Error: file must end with a single empty line
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 14): comment not well formatted
+Error (line 21): line has 83 characters
+Error (line 24, col 8): bogey is instanciated during declaration
+Error (line 27): Empty line
+Error (line 38): comment not well formatted
+Error (line 47): Space before function name
+Error (line 47): bad spacing before ft_checkincremetor_order
+Error (line 49, col 10): bogey is instanciated during declaration
+Error (line 50, col 9): ptr is instanciated during declaration
+Error (line 62): declarations in main must be at the top of the function
+Error (line 62): declarations must be followed by one empty line in main
+Error (line 65, col 9): head is instanciated during declaration
+Error (line 69): 2 instructions
+Error (line 69): for detected
+Error (line 69, col 13): i is instanciated during declaration
+Error (line 70): bad indentation
+Error (line 76, col 0): no newline after block
+Norme: ./src/corewar/tests/t_array_size.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 14): define must be a constant value
+Error (line 15): define must be a constant value
+Error (line 17): line has 88 characters
+Error (line 39): declarations in ft_assign_new_id are bad aligned
+Error (line 60): declarations must be followed by one empty line in ft_assign_champ_ids
+Error (line 65): spaces at the end of line
+Error (line 69): spaces at the end of line
+Error (line 78): bad spacing after ft_prep_battle
+Error (line 81): spaces at the end of line
+Error (line 82): C++ comment
+Error (line 83): C++ comment
+Error (line 86): multiple empty lines
+Error (line 87): bad spacing before main
+Error (line 98, col 0): no newline after block
+Norme: ./src/corewar/tests/t_printf.c
+Error: file must end with a single empty line
+Error (line 15): Space before function name
+Error (line 17, col 1): missing space after while
+Error (line 24, col 0): no newline after block
+Norme: ./src/corewar/tests/t_are_digits.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_are_digits.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_calc_addr.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 25): declarations in main must be at the top of the function
+Error (line 25): declarations must be followed by one empty line in main
+Error (line 27, col 7): k is instanciated during declaration
+Error (line 28, col 7): modif is instanciated during declaration
+Error (line 30, col 7): x is instanciated during declaration
+Error (line 31, col 7): y is instanciated during declaration
+Error (line 33, col 0): no newline after block
+Norme: ./src/corewar/tests/t_get_arena_val.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_get_arena_val.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_static_check.c
+Error: file must end with a single empty line
+Error (line 18, col 0): no newline after block
+Norme: ./src/corewar/tests/t_static_extra.c
+Error: file must end with a single empty line
+Error (line 21, col 0): no newline after block
+Norme: ./src/corewar/tests/t_incref_order.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_incref_order.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_arr_sort.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_arr_sort.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_defcheck.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/tests/t_defcheck.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/tests/t_stack_lim.c
+Error: file must end with a single empty line
+Error (line 19): C++ comment
+Error (line 22, col 0): no newline after block
+Norme: ./src/corewar/includes/cwr.h
+Norme: ./src/corewar/includes/op.h
+Norme: ./src/corewar/includes/little_endian.h
+Error (line 16): preprocessor block must be followed by one empty line
+Error (line 16): spaces at the end of line
+Error (line 43): wrong number of spaces in preprocessor indentation
+Error (line 43): parameterized macros are forbidden
+Error (line 44): wrong number of spaces in preprocessor indentation
+Error (line 44): parameterized macros are forbidden
+Error (line 45): wrong number of spaces in preprocessor indentation
+Error (line 45): parameterized macros are forbidden
+Error (line 47): wrong number of spaces in preprocessor indentation
+Error (line 50): wrong number of spaces in preprocessor indentation
+Error (line 50): parameterized macros are forbidden
+Error (line 51): wrong number of spaces in preprocessor indentation
+Error (line 51): parameterized macros are forbidden
+Error (line 52): wrong number of spaces in preprocessor indentation
+Error (line 52): parameterized macros are forbidden
+Error (line 53): wrong number of spaces in preprocessor indentation
+Error (line 53): parameterized macros are forbidden
+Error (line 55): wrong number of spaces in preprocessor indentation
+Error (line 58): wrong number of spaces in preprocessor indentation
+Error (line 58): parameterized macros are forbidden
+Error (line 59): wrong number of spaces in preprocessor indentation
+Error (line 59): parameterized macros are forbidden
+Error (line 60): wrong number of spaces in preprocessor indentation
+Error (line 60): parameterized macros are forbidden
+Error (line 61): wrong number of spaces in preprocessor indentation
+Error (line 61): parameterized macros are forbidden
+Error (line 62): wrong number of spaces in preprocessor indentation
+Error (line 62): parameterized macros are forbidden
+Error (line 64): wrong number of spaces in preprocessor indentation
+Error (line 67): wrong number of spaces in preprocessor indentation
+Error (line 67): parameterized macros are forbidden
+Error (line 68): wrong number of spaces in preprocessor indentation
+Error (line 68): parameterized macros are forbidden
+Error (line 69): wrong number of spaces in preprocessor indentation
+Error (line 69): parameterized macros are forbidden
+Error (line 70): wrong number of spaces in preprocessor indentation
+Error (line 70): parameterized macros are forbidden
+Error (line 71): wrong number of spaces in preprocessor indentation
+Error (line 71): parameterized macros are forbidden
+Error (line 73): wrong number of spaces in preprocessor indentation
+Error (line 76): wrong number of spaces in preprocessor indentation
+Error (line 76): parameterized macros are forbidden
+Error (line 77): wrong number of spaces in preprocessor indentation
+Error (line 77): parameterized macros are forbidden
+Error (line 78): wrong number of spaces in preprocessor indentation
+Error (line 78): parameterized macros are forbidden
+Error (line 79): wrong number of spaces in preprocessor indentation
+Error (line 79): parameterized macros are forbidden
+Error (line 80): wrong number of spaces in preprocessor indentation
+Error (line 80): parameterized macros are forbidden
+Error (line 81): wrong number of spaces in preprocessor indentation
+Error (line 81): parameterized macros are forbidden
+Error (line 82): wrong number of spaces in preprocessor indentation
+Error (line 82): parameterized macros are forbidden
+Error (line 83): wrong number of spaces in preprocessor indentation
+Error (line 83): parameterized macros are forbidden
+Error (line 84): wrong number of spaces in preprocessor indentation
+Error (line 84): parameterized macros are forbidden
+Error (line 85): wrong number of spaces in preprocessor indentation
+Error (line 85): parameterized macros are forbidden
+Error (line 87): wrong number of spaces in preprocessor indentation
+Error (line 90): wrong number of spaces in preprocessor indentation
+Error (line 90): parameterized macros are forbidden
+Error (line 91): wrong number of spaces in preprocessor indentation
+Error (line 91): parameterized macros are forbidden
+Error (line 92): wrong number of spaces in preprocessor indentation
+Error (line 92): parameterized macros are forbidden
+Error (line 93): wrong number of spaces in preprocessor indentation
+Error (line 93): parameterized macros are forbidden
+Error (line 94): wrong number of spaces in preprocessor indentation
+Error (line 94): parameterized macros are forbidden
+Error (line 95): wrong number of spaces in preprocessor indentation
+Error (line 95): parameterized macros are forbidden
+Error (line 96): wrong number of spaces in preprocessor indentation
+Error (line 96): parameterized macros are forbidden
+Error (line 97): wrong number of spaces in preprocessor indentation
+Error (line 97): parameterized macros are forbidden
+Error (line 98): wrong number of spaces in preprocessor indentation
+Error (line 98): parameterized macros are forbidden
+Error (line 99): wrong number of spaces in preprocessor indentation
+Error (line 99): parameterized macros are forbidden
+Error (line 100): wrong number of spaces in preprocessor indentation
+Error (line 100): parameterized macros are forbidden
+Error (line 102): wrong number of spaces in preprocessor indentation
+Error (line 105): wrong number of spaces in preprocessor indentation
+Error (line 105): parameterized macros are forbidden
+Error (line 106): wrong number of spaces in preprocessor indentation
+Error (line 106): parameterized macros are forbidden
+Error (line 107): wrong number of spaces in preprocessor indentation
+Error (line 107): parameterized macros are forbidden
+Error (line 108): wrong number of spaces in preprocessor indentation
+Error (line 108): parameterized macros are forbidden
+Error (line 109): wrong number of spaces in preprocessor indentation
+Error (line 109): parameterized macros are forbidden
+Error (line 110): wrong number of spaces in preprocessor indentation
+Error (line 110): parameterized macros are forbidden
+Error (line 111): wrong number of spaces in preprocessor indentation
+Error (line 111): parameterized macros are forbidden
+Error (line 112): wrong number of spaces in preprocessor indentation
+Error (line 112): parameterized macros are forbidden
+Error (line 113): wrong number of spaces in preprocessor indentation
+Error (line 113): parameterized macros are forbidden
+Error (line 114): wrong number of spaces in preprocessor indentation
+Error (line 114): parameterized macros are forbidden
+Error (line 115): wrong number of spaces in preprocessor indentation
+Error (line 115): parameterized macros are forbidden
+Error (line 116): wrong number of spaces in preprocessor indentation
+Error (line 116): parameterized macros are forbidden
+Error (line 118): wrong number of spaces in preprocessor indentation
+Error (line 121): wrong number of spaces in preprocessor indentation
+Error (line 121): parameterized macros are forbidden
+Error (line 122): wrong number of spaces in preprocessor indentation
+Error (line 122): parameterized macros are forbidden
+Error (line 123): wrong number of spaces in preprocessor indentation
+Error (line 123): parameterized macros are forbidden
+Error (line 124): wrong number of spaces in preprocessor indentation
+Error (line 124): parameterized macros are forbidden
+Error (line 125): wrong number of spaces in preprocessor indentation
+Error (line 125): parameterized macros are forbidden
+Error (line 126): wrong number of spaces in preprocessor indentation
+Error (line 126): parameterized macros are forbidden
+Error (line 127): wrong number of spaces in preprocessor indentation
+Error (line 127): parameterized macros are forbidden
+Error (line 128): wrong number of spaces in preprocessor indentation
+Error (line 128): parameterized macros are forbidden
+Error (line 129): wrong number of spaces in preprocessor indentation
+Error (line 129): parameterized macros are forbidden
+Error (line 130): wrong number of spaces in preprocessor indentation
+Error (line 130): parameterized macros are forbidden
+Error (line 131): wrong number of spaces in preprocessor indentation
+Error (line 131): parameterized macros are forbidden
+Error (line 132): wrong number of spaces in preprocessor indentation
+Error (line 132): parameterized macros are forbidden
+Error (line 134): wrong number of spaces in preprocessor indentation
+Error (line 137): wrong number of spaces in preprocessor indentation
+Error (line 137): parameterized macros are forbidden
+Error (line 138): wrong number of spaces in preprocessor indentation
+Error (line 138): parameterized macros are forbidden
+Error (line 139): wrong number of spaces in preprocessor indentation
+Error (line 139): parameterized macros are forbidden
+Error (line 141): wrong number of spaces in preprocessor indentation
+Error (line 144): wrong number of spaces in preprocessor indentation
+Error (line 144): parameterized macros are forbidden
+Error (line 145): wrong number of spaces in preprocessor indentation
+Error (line 145): parameterized macros are forbidden
+Error (line 146): wrong number of spaces in preprocessor indentation
+Error (line 146): parameterized macros are forbidden
+Error (line 147): wrong number of spaces in preprocessor indentation
+Error (line 147): parameterized macros are forbidden
+Error (line 149): wrong number of spaces in preprocessor indentation
+Error (line 152): wrong number of spaces in preprocessor indentation
+Error (line 152): parameterized macros are forbidden
+Error (line 153): wrong number of spaces in preprocessor indentation
+Error (line 153): parameterized macros are forbidden
+Error (line 154): wrong number of spaces in preprocessor indentation
+Error (line 154): parameterized macros are forbidden
+Error (line 155): wrong number of spaces in preprocessor indentation
+Error (line 155): parameterized macros are forbidden
+Error (line 156): wrong number of spaces in preprocessor indentation
+Error (line 156): parameterized macros are forbidden
+Error (line 158): wrong number of spaces in preprocessor indentation
+Error (line 161): wrong number of spaces in preprocessor indentation
+Error (line 161): parameterized macros are forbidden
+Error (line 162): wrong number of spaces in preprocessor indentation
+Error (line 162): parameterized macros are forbidden
+Error (line 163): wrong number of spaces in preprocessor indentation
+Error (line 163): parameterized macros are forbidden
+Error (line 164): wrong number of spaces in preprocessor indentation
+Error (line 164): parameterized macros are forbidden
+Error (line 165): wrong number of spaces in preprocessor indentation
+Error (line 165): parameterized macros are forbidden
+Error (line 167): wrong number of spaces in preprocessor indentation
+Error (line 170): wrong number of spaces in preprocessor indentation
+Error (line 170): parameterized macros are forbidden
+Error (line 171): wrong number of spaces in preprocessor indentation
+Error (line 171): parameterized macros are forbidden
+Error (line 172): wrong number of spaces in preprocessor indentation
+Error (line 172): parameterized macros are forbidden
+Error (line 173): wrong number of spaces in preprocessor indentation
+Error (line 173): parameterized macros are forbidden
+Error (line 174): wrong number of spaces in preprocessor indentation
+Error (line 174): parameterized macros are forbidden
+Error (line 175): wrong number of spaces in preprocessor indentation
+Error (line 175): parameterized macros are forbidden
+Error (line 176): wrong number of spaces in preprocessor indentation
+Error (line 176): parameterized macros are forbidden
+Error (line 177): wrong number of spaces in preprocessor indentation
+Error (line 177): parameterized macros are forbidden
+Error (line 178): wrong number of spaces in preprocessor indentation
+Error (line 178): parameterized macros are forbidden
+Error (line 179): wrong number of spaces in preprocessor indentation
+Error (line 179): parameterized macros are forbidden
+Error (line 181): wrong number of spaces in preprocessor indentation
+Error (line 184): wrong number of spaces in preprocessor indentation
+Error (line 184): parameterized macros are forbidden
+Error (line 185): wrong number of spaces in preprocessor indentation
+Error (line 185): parameterized macros are forbidden
+Error (line 186): wrong number of spaces in preprocessor indentation
+Error (line 186): parameterized macros are forbidden
+Error (line 187): wrong number of spaces in preprocessor indentation
+Error (line 187): parameterized macros are forbidden
+Error (line 188): wrong number of spaces in preprocessor indentation
+Error (line 188): parameterized macros are forbidden
+Error (line 189): wrong number of spaces in preprocessor indentation
+Error (line 189): parameterized macros are forbidden
+Error (line 190): wrong number of spaces in preprocessor indentation
+Error (line 190): parameterized macros are forbidden
+Error (line 191): wrong number of spaces in preprocessor indentation
+Error (line 191): parameterized macros are forbidden
+Error (line 192): wrong number of spaces in preprocessor indentation
+Error (line 192): parameterized macros are forbidden
+Error (line 193): wrong number of spaces in preprocessor indentation
+Error (line 193): parameterized macros are forbidden
+Error (line 194): wrong number of spaces in preprocessor indentation
+Error (line 194): parameterized macros are forbidden
+Error (line 196): wrong number of spaces in preprocessor indentation
+Error (line 199): wrong number of spaces in preprocessor indentation
+Error (line 199): parameterized macros are forbidden
+Error (line 200): wrong number of spaces in preprocessor indentation
+Error (line 200): parameterized macros are forbidden
+Error (line 201): wrong number of spaces in preprocessor indentation
+Error (line 201): parameterized macros are forbidden
+Error (line 202): wrong number of spaces in preprocessor indentation
+Error (line 202): parameterized macros are forbidden
+Error (line 203): wrong number of spaces in preprocessor indentation
+Error (line 203): parameterized macros are forbidden
+Error (line 204): wrong number of spaces in preprocessor indentation
+Error (line 204): parameterized macros are forbidden
+Error (line 205): wrong number of spaces in preprocessor indentation
+Error (line 205): parameterized macros are forbidden
+Error (line 206): wrong number of spaces in preprocessor indentation
+Error (line 206): parameterized macros are forbidden
+Error (line 207): wrong number of spaces in preprocessor indentation
+Error (line 207): parameterized macros are forbidden
+Error (line 208): wrong number of spaces in preprocessor indentation
+Error (line 208): parameterized macros are forbidden
+Error (line 209): wrong number of spaces in preprocessor indentation
+Error (line 209): parameterized macros are forbidden
+Error (line 210): wrong number of spaces in preprocessor indentation
+Error (line 210): parameterized macros are forbidden
+Error (line 212): wrong number of spaces in preprocessor indentation
+Error (line 215): wrong number of spaces in preprocessor indentation
+Error (line 215): parameterized macros are forbidden
+Error (line 216): wrong number of spaces in preprocessor indentation
+Error (line 216): parameterized macros are forbidden
+Error (line 217): wrong number of spaces in preprocessor indentation
+Error (line 217): parameterized macros are forbidden
+Error (line 218): wrong number of spaces in preprocessor indentation
+Error (line 218): parameterized macros are forbidden
+Error (line 219): wrong number of spaces in preprocessor indentation
+Error (line 219): parameterized macros are forbidden
+Error (line 220): wrong number of spaces in preprocessor indentation
+Error (line 220): parameterized macros are forbidden
+Error (line 221): wrong number of spaces in preprocessor indentation
+Error (line 221): parameterized macros are forbidden
+Error (line 222): wrong number of spaces in preprocessor indentation
+Error (line 222): parameterized macros are forbidden
+Error (line 223): wrong number of spaces in preprocessor indentation
+Error (line 223): parameterized macros are forbidden
+Error (line 224): wrong number of spaces in preprocessor indentation
+Error (line 224): parameterized macros are forbidden
+Error (line 225): wrong number of spaces in preprocessor indentation
+Error (line 225): parameterized macros are forbidden
+Error (line 226): wrong number of spaces in preprocessor indentation
+Error (line 226): parameterized macros are forbidden
+Error (line 228): wrong number of spaces in preprocessor indentation
+Error (line 230): multiple empty lines
+Error (line 231): multiple empty lines
+Error (line 232): comment not well formatted
+Error (line 237): wrong number of spaces in preprocessor indentation
+Error (line 237): parameterized macros are forbidden
+Error (line 238): wrong number of spaces in preprocessor indentation
+Error (line 238): parameterized macros are forbidden
+Error (line 239): wrong number of spaces in preprocessor indentation
+Error (line 239): parameterized macros are forbidden
+Error (line 241): wrong number of spaces in preprocessor indentation
+Error (line 244): wrong number of spaces in preprocessor indentation
+Error (line 244): parameterized macros are forbidden
+Error (line 245): wrong number of spaces in preprocessor indentation
+Error (line 245): parameterized macros are forbidden
+Error (line 246): wrong number of spaces in preprocessor indentation
+Error (line 246): parameterized macros are forbidden
+Error (line 247): wrong number of spaces in preprocessor indentation
+Error (line 247): parameterized macros are forbidden
+Error (line 249): wrong number of spaces in preprocessor indentation
+Error (line 252): wrong number of spaces in preprocessor indentation
+Error (line 252): parameterized macros are forbidden
+Error (line 253): wrong number of spaces in preprocessor indentation
+Error (line 253): parameterized macros are forbidden
+Error (line 254): wrong number of spaces in preprocessor indentation
+Error (line 254): parameterized macros are forbidden
+Error (line 255): wrong number of spaces in preprocessor indentation
+Error (line 255): parameterized macros are forbidden
+Error (line 256): wrong number of spaces in preprocessor indentation
+Error (line 256): parameterized macros are forbidden
+Error (line 258): wrong number of spaces in preprocessor indentation
+Error (line 261): wrong number of spaces in preprocessor indentation
+Error (line 261): parameterized macros are forbidden
+Error (line 262): wrong number of spaces in preprocessor indentation
+Error (line 262): parameterized macros are forbidden
+Error (line 263): wrong number of spaces in preprocessor indentation
+Error (line 263): parameterized macros are forbidden
+Error (line 264): wrong number of spaces in preprocessor indentation
+Error (line 264): parameterized macros are forbidden
+Error (line 265): wrong number of spaces in preprocessor indentation
+Error (line 265): parameterized macros are forbidden
+Error (line 267): wrong number of spaces in preprocessor indentation
+Error (line 270): wrong number of spaces in preprocessor indentation
+Error (line 270): parameterized macros are forbidden
+Error (line 271): wrong number of spaces in preprocessor indentation
+Error (line 271): parameterized macros are forbidden
+Error (line 272): wrong number of spaces in preprocessor indentation
+Error (line 272): parameterized macros are forbidden
+Error (line 273): wrong number of spaces in preprocessor indentation
+Error (line 273): parameterized macros are forbidden
+Error (line 274): wrong number of spaces in preprocessor indentation
+Error (line 274): parameterized macros are forbidden
+Error (line 275): wrong number of spaces in preprocessor indentation
+Error (line 275): parameterized macros are forbidden
+Error (line 276): wrong number of spaces in preprocessor indentation
+Error (line 276): parameterized macros are forbidden
+Error (line 277): wrong number of spaces in preprocessor indentation
+Error (line 277): parameterized macros are forbidden
+Error (line 278): wrong number of spaces in preprocessor indentation
+Error (line 278): parameterized macros are forbidden
+Error (line 279): wrong number of spaces in preprocessor indentation
+Error (line 279): parameterized macros are forbidden
+Error (line 281): wrong number of spaces in preprocessor indentation
+Error (line 284): wrong number of spaces in preprocessor indentation
+Error (line 284): parameterized macros are forbidden
+Error (line 285): wrong number of spaces in preprocessor indentation
+Error (line 285): parameterized macros are forbidden
+Error (line 286): wrong number of spaces in preprocessor indentation
+Error (line 286): parameterized macros are forbidden
+Error (line 287): wrong number of spaces in preprocessor indentation
+Error (line 287): parameterized macros are forbidden
+Error (line 288): wrong number of spaces in preprocessor indentation
+Error (line 288): parameterized macros are forbidden
+Error (line 289): wrong number of spaces in preprocessor indentation
+Error (line 289): parameterized macros are forbidden
+Error (line 290): wrong number of spaces in preprocessor indentation
+Error (line 290): parameterized macros are forbidden
+Error (line 291): wrong number of spaces in preprocessor indentation
+Error (line 291): parameterized macros are forbidden
+Error (line 292): wrong number of spaces in preprocessor indentation
+Error (line 292): parameterized macros are forbidden
+Error (line 293): wrong number of spaces in preprocessor indentation
+Error (line 293): parameterized macros are forbidden
+Error (line 294): wrong number of spaces in preprocessor indentation
+Error (line 294): parameterized macros are forbidden
+Error (line 296): wrong number of spaces in preprocessor indentation
+Error (line 299): wrong number of spaces in preprocessor indentation
+Error (line 299): parameterized macros are forbidden
+Error (line 300): wrong number of spaces in preprocessor indentation
+Error (line 300): parameterized macros are forbidden
+Error (line 301): wrong number of spaces in preprocessor indentation
+Error (line 301): parameterized macros are forbidden
+Error (line 302): wrong number of spaces in preprocessor indentation
+Error (line 302): parameterized macros are forbidden
+Error (line 303): wrong number of spaces in preprocessor indentation
+Error (line 303): parameterized macros are forbidden
+Error (line 304): wrong number of spaces in preprocessor indentation
+Error (line 304): parameterized macros are forbidden
+Error (line 305): wrong number of spaces in preprocessor indentation
+Error (line 305): parameterized macros are forbidden
+Error (line 306): wrong number of spaces in preprocessor indentation
+Error (line 306): parameterized macros are forbidden
+Error (line 307): wrong number of spaces in preprocessor indentation
+Error (line 307): parameterized macros are forbidden
+Error (line 308): wrong number of spaces in preprocessor indentation
+Error (line 308): parameterized macros are forbidden
+Error (line 309): wrong number of spaces in preprocessor indentation
+Error (line 309): parameterized macros are forbidden
+Error (line 310): wrong number of spaces in preprocessor indentation
+Error (line 310): parameterized macros are forbidden
+Error (line 312): wrong number of spaces in preprocessor indentation
+Error (line 315): wrong number of spaces in preprocessor indentation
+Error (line 315): parameterized macros are forbidden
+Error (line 316): wrong number of spaces in preprocessor indentation
+Error (line 316): parameterized macros are forbidden
+Error (line 317): wrong number of spaces in preprocessor indentation
+Error (line 317): parameterized macros are forbidden
+Error (line 318): wrong number of spaces in preprocessor indentation
+Error (line 318): parameterized macros are forbidden
+Error (line 319): wrong number of spaces in preprocessor indentation
+Error (line 319): parameterized macros are forbidden
+Error (line 320): wrong number of spaces in preprocessor indentation
+Error (line 320): parameterized macros are forbidden
+Error (line 321): wrong number of spaces in preprocessor indentation
+Error (line 321): parameterized macros are forbidden
+Error (line 322): wrong number of spaces in preprocessor indentation
+Error (line 322): parameterized macros are forbidden
+Error (line 323): wrong number of spaces in preprocessor indentation
+Error (line 323): parameterized macros are forbidden
+Error (line 324): wrong number of spaces in preprocessor indentation
+Error (line 324): parameterized macros are forbidden
+Error (line 325): wrong number of spaces in preprocessor indentation
+Error (line 325): parameterized macros are forbidden
+Error (line 326): wrong number of spaces in preprocessor indentation
+Error (line 326): parameterized macros are forbidden
+Error (line 328): wrong number of spaces in preprocessor indentation
+Norme: ./src/corewar/includes/cwr_defs.h
+Error (line 38): comment not well formatted
+Error (line 44): line has 86 characters
+Error (line 48): line has 86 characters
+Error (line 48): parameterized macros are forbidden
+Error (line 54): parameterized macros are forbidden
+Error (line 94): C++ comment
+Error (line 94): line has 178 characters
+Error (line 94, col 19): bad character after ;
+Error (line 95): C++ comment
+Error (line 95): line has 130 characters
+Error (line 95): spaces at the end of line
+Error (line 95, col 20): bad character after ;
+Error (line 101): false and t_bool not aligned.
+Error (line 129): C++ comment
+Error (line 129): line has 137 characters
+Error (line 129, col 19): bad character after ;
+Error (line 130): C++ comment
+Error (line 130): line has 144 characters
+Error (line 130, col 21): bad character after ;
+Error (line 133): comment not well formatted
+Error (line 142): comment not well formatted
+Error (line 155): C++ comment
+Error (line 155): line has 164 characters
+Error (line 155, col 17): bad character after ;
+Error (line 156): C++ comment
+Error (line 156): line has 122 characters
+Error (line 156, col 22): bad character after ;
+Error (line 157): C++ comment
+Error (line 157): line has 126 characters
+Error (line 157, col 22): bad character after ;
+Error (line 159): C++ comment
+Error (line 159): line has 228 characters
+Error (line 159, col 22): bad character after ;
+Error (line 160): C++ comment
+Error (line 160): line has 192 characters
+Error (line 160, col 25): bad character after ;
+Error (line 161): C++ comment
+Error (line 161): line has 189 characters
+Error (line 161, col 24): bad character after ;
+Error (line 164): C++ comment
+Error (line 164): line has 104 characters
+Error (line 166): C++ comment
+Error (line 166): line has 118 characters
+Error (line 166, col 12): bad character after ;
+Error (line 170): C++ comment
+Error (line 170): line has 243 characters
+Error (line 170, col 15): bad character after ;
+Error (line 172): C++ comment
+Error (line 172): line has 160 characters
+Error (line 172, col 24): bad character after ;
+Error (line 173): C++ comment
+Error (line 173): line has 176 characters
+Error (line 173, col 20): bad character after ;
+Error (line 174): C++ comment
+Error (line 174): line has 198 characters
+Error (line 174, col 20): bad character after ;
+Error (line 209): C++ comment
+Error (line 209): line has 129 characters
+Error (line 209, col 18): bad character after ;
+Error (line 211): C++ comment
+Error (line 211): line has 193 characters
+Error (line 211): spaces at the end of line
+Error (line 211, col 24): bad character after ;
+Error (line 214): C++ comment
+Error (line 214): line has 118 characters
+Error (line 214, col 22): bad character after ;
+Error (line 215): C++ comment
+Error (line 215): line has 145 characters
+Error (line 215, col 18): bad character after ;
+Error (line 216): C++ comment
+Error (line 216): line has 134 characters
+Error (line 216): spaces at the end of line
+Error (line 216, col 19): bad character after ;
+Norme: ./src/corewar/includes/cwr_op_defs.h
+Error (line 17): wrong number of spaces in preprocessor indentation
+Error (line 19): multiple empty lines
+Error (line 20): comment not well formatted
+Error (line 32, col 22): global named stat_code_to_type is not well prefixed
+Error (line 36): spaces at the end of line
+Error (line 39, col 20): global named stat_opset is not well prefixed
+Error (line 40): C++ comment
+Error (line 48): C++ comment
+Error (line 55): C++ comment
+Error (line 61): C++ comment
+Error (line 67): C++ comment
+Error (line 73): C++ comment
+Error (line 79): C++ comment
+Error (line 85): C++ comment
+Error (line 91): C++ comment
+Error (line 97): C++ comment
+Error (line 104): C++ comment
+Error (line 110): C++ comment
+Error (line 116): C++ comment
+Error (line 123): C++ comment
+Error (line 129): C++ comment
+Error (line 135): C++ comment
+Error (line 142): C++ comment
+Norme: ./src/corewar/includes/cwr_funcs.h
+Error: file must end with a single empty line
+Error (line 17): multiple empty lines
+Error (line 43): multiple empty lines
+Error (line 51): C++ comment
+Error (line 51): line has 128 characters
+Error (line 51, col 37): bad character after ;
+Error (line 53): C++ comment
+Error (line 53): line has 119 characters
+Error (line 53, col 42): bad character after ;
+Error (line 54): C++ comment
+Error (line 54): line has 119 characters
+Error (line 54, col 42): bad character after ;
+Error (line 104): multiple empty lines
+Error (line 121): multiple empty lines
+Error (line 122): multiple empty lines
+Error (line 178): multiple empty lines
+Norme: ./src/corewar/includes/cwr_intro.h
+Error: file must end with a single empty line
+Error (line 16): wrong number of spaces in preprocessor indentation
+Error (line 17): wrong number of spaces in preprocessor indentation
+Norme: ./src/corewar/includes/op_lims.h
+Error: has double inclusion protection but not with the good define name
+Error (line 16): wrong number of spaces in preprocessor indentation
+Error (line 17): wrong number of spaces in preprocessor indentation
+Error (line 18): wrong number of spaces in preprocessor indentation
+Error (line 19): wrong number of spaces in preprocessor indentation
+Error (line 20): wrong number of spaces in preprocessor indentation
+Error (line 22): wrong number of spaces in preprocessor indentation
+Error (line 26): wrong number of spaces in preprocessor indentation
+Error (line 27): wrong number of spaces in preprocessor indentation
+Error (line 28): wrong number of spaces in preprocessor indentation
+Error (line 29): wrong number of spaces in preprocessor indentation
+Norme: ./src/corewar/includes/cwr_man.h
+Error: file must end with a single empty line
+Error (line 14): spaces at the end of line
+Error (line 19): wrong number of spaces in preprocessor indentation
+Error (line 20): wrong number of spaces in preprocessor indentation
+Error (line 21): wrong number of spaces in preprocessor indentation
+Error (line 22): wrong number of spaces in preprocessor indentation
+Error (line 23): wrong number of spaces in preprocessor indentation
+Error (line 24): wrong number of spaces in preprocessor indentation
+Error (line 25): wrong number of spaces in preprocessor indentation
+Error (line 26): wrong number of spaces in preprocessor indentation
+Error (line 27): wrong number of spaces in preprocessor indentation
+Error (line 28): wrong number of spaces in preprocessor indentation
+Error (line 29): wrong number of spaces in preprocessor indentation
+Error (line 30): wrong number of spaces in preprocessor indentation
+Error (line 31): wrong number of spaces in preprocessor indentation
+Error (line 32): wrong number of spaces in preprocessor indentation
+Error (line 33): wrong number of spaces in preprocessor indentation
+Error (line 34): wrong number of spaces in preprocessor indentation
+Error (line 35): wrong number of spaces in preprocessor indentation
+Error (line 36): wrong number of spaces in preprocessor indentation
+Error (line 37): wrong number of spaces in preprocessor indentation
+Error (line 38): wrong number of spaces in preprocessor indentation
+Error (line 39): wrong number of spaces in preprocessor indentation
+Error (line 39): parameterized macros are forbidden
+Error (line 41): wrong number of spaces in preprocessor indentation
+Error (line 47): wrong number of spaces in preprocessor indentation
+Error (line 48): wrong number of spaces in preprocessor indentation
+Error (line 49): wrong number of spaces in preprocessor indentation
+Error (line 50): wrong number of spaces in preprocessor indentation
+Error (line 51): wrong number of spaces in preprocessor indentation
+Error (line 52): wrong number of spaces in preprocessor indentation
+Error (line 54): wrong number of spaces in preprocessor indentation
+Error (line 55): wrong number of spaces in preprocessor indentation
+Error (line 56): wrong number of spaces in preprocessor indentation
+Error (line 57): wrong number of spaces in preprocessor indentation
+Error (line 59): multiple empty lines
+Norme: ./src/corewar/src/ch_carry/create_carry.c
+Error: file must end with a single empty line
+Error (line 26): comment not well formatted
+Error (line 37): bad spacing before ft_dupe_carry
+Error (line 46, col 0): no newline after block
+Norme: ./src/corewar/src/ch_carry/insert_carry.c
+Error (line 15): multiple empty lines
+Error (line 16): comment not well formatted
+Error (line 19): spaces at the end of line
+Error (line 26): bad spacing before ft_add_offspring_by_order
+Error (line 51): comment not well formatted
+Error (line 56): bad spacing before ft_add_offspring_by_id
+Norme: ./src/corewar/src/ch_carry/init_carries.c
+Error: file must end with a single empty line
+Error (line 15): comment not well formatted
+Error (line 22): bad spacing before ft_check_production
+Error (line 30): comment not well formatted
+Error (line 33): bad spacing before ft_init_carry_origin
+Error (line 56): bad indentation
+Error (line 61, col 0): no newline after block
+Norme: ./src/corewar/src/trees/dvasa_delete.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/src/trees/dvasa_delete.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/src/trees/manage_tree.c
+Error: global scope bad aligned
+Error (line 20): define must be a constant value
+Error (line 32): comment not well formatted
+Error (line 33): spaces at the end of line
+Error (line 37): spaces at the end of line
+Error (line 41): spaces at the end of line
+Error (line 44): line has 93 characters
+Error (line 44): bad spacing before ft_carry_control
+Error (line 64): bad indentation
+Error (line 65): bad indentation
+Error (line 100): comment not well formatted
+Error (line 109): spaces at the end of line
+Error (line 117): bad spacing before ft_tree_undertaker
+Error (line 128): bad indentation
+Error (line 129): bad indentation
+Error (line 130): bad indentation
+Error (line 131): bad indentation
+Error (line 132): bad indentation
+Error (line 133): bad indentation
+Error (line 134): bad indentation
+Error (line 135): bad indentation
+Error (line 136): bad indentation
+Error (line 137): bad indentation
+Error (line 138): bad indentation
+Error (line 139): bad indentation
+Norme: ./src/corewar/src/trees/dvasa_add.c
+Error: file must end with a single empty line
+Error (line 15): comment not well formatted
+Error (line 20): bad spacing before ft_add_leafnode
+Error (line 30, col 0): no newline after block
+Norme: ./src/corewar/src/trees/dvasa_create.c
+Error: file must end with a single empty line
+Error (line 13): preprocessor block must be followed by one empty line
+Error (line 14): comment not well formatted
+Error (line 17): bad spacing before ft_create_leafnode_r
+Error (line 29): comment not well formatted
+Error (line 32): bad spacing before ft_create_leafnode
+Error (line 50, col 0): no newline after block
+Norme: ./src/corewar/src/trees/dvasa_pick.c
+Error (line 15): comment not well formatted
+Error (line 20): spaces at the end of line
+Error (line 25): bad spacing before ft_new_leafnode_insert
+Error (line 48): comment not well formatted
+Error (line 61): bad spacing before ft_leafnode_pick
+Error (line 70, col 1): missing space after while
+Norme: ./src/corewar/src/print_dump/print_dump_lobby.c
+Error: file must end with a single empty line
+Error (line 15): comment not well formatted
+Error (line 20): spaces at the end of line
+Error (line 26): bad spacing before ft_print_dump
+Error (line 29, col 0): no newline after block
+Norme: ./src/corewar/src/little_endian/end_01_conv_1_4.c
+Norme: ./src/corewar/src/serv/add_cyclist.c
+Error (line 15): comment not well formatted
+Error (line 22): bad spacing before ft_add_cyclist
+Norme: ./src/corewar/src/serv/is_digits.c
+Error (line 20, col 4): bad spacing
+Error (line 28): Empty line
+Error (line 29, col 0): no empty line before block
+Norme: ./src/corewar/src/serv/sort_champs.c
+Error: file must end with a single empty line
+Error (line 15): comment not well formatted
+Error (line 18): bad spacing before ft_build_champ_chain
+Error (line 32): bad indentation
+Error (line 35): comment not well formatted
+Error (line 38): bad spacing before ft_champ_ptr_leftid_grt_rightid
+Error (line 53, col 0): no newline after block
+Norme: ./src/corewar/src/serv/_del_error.c
+Error: file must end with a single empty line
+Error: bad filename : _del_error.c
+Error (line 21): C++ comment
+Error (line 21): bad indentation
+Error (line 22): C++ comment
+Error (line 22): line has 97 characters
+Error (line 22): bad indentation
+Error (line 28, col 0): no newline after block
+Norme: ./src/corewar/src/serv/proxies.c
+Error: file must end with a single empty line
+Error (line 25, col 0): no newline after block
+Norme: ./src/corewar/src/serv/manage_world.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/src/serv/manage_world.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/src/serv/cyc_cycsol_cmp.c
+Norme: ./src/corewar/src/serv/_del_carry.c
+Error: file must end with a single empty line
+Error: bad filename : _del_carry.c
+Error (line 21): C++ comment
+Error (line 21): bad indentation
+Error (line 22): C++ comment
+Error (line 22): line has 97 characters
+Error (line 22): bad indentation
+Error (line 28, col 0): no newline after block
+Norme: ./src/corewar/src/prep_rout/parse_champ.c
+Error (line 15): comment not well formatted
+Error (line 19): bad spacing before ft_check_filename
+Error (line 26): comment not well formatted
+Error (line 38): declarations in ft_parse_champ are bad aligned
+Error (line 38): bad spacing before ft_parse_champ
+Error (line 38): declarations in ft_parse_champ must be at the top of the function
+Error (line 41, col 18): space after pointer
+Norme: ./src/corewar/src/prep_rout/manage_champ.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/src/prep_rout/manage_champ.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/src/prep_rout/prep_battle.c
+Error (line 16): comment not well formatted
+Error (line 19): bad spacing before ft_build_buff_nt
+Error (line 36): comment not well formatted
+Error (line 39): bad spacing before ft_sort_dumps
+Error (line 49): comment not well formatted
+Error (line 52): bad spacing before ft_place_champs
+Error (line 73): bad spacing after ft_print_intro
+Error (line 75): Empty line
+Error (line 84): comment not well formatted
+Error (line 87): bad spacing before ft_prep_battle
+Error (line 89): spaces at the end of line
+Error (line 89): bad indentation
+Error (line 93): line has 82 characters
+Norme: ./src/corewar/src/prep_rout/parse_fdump.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 25): comment not well formatted
+Error (line 28): bad spacing before ft_add_step_container
+Error (line 44): line has 99 characters
+Error (line 44): bad spacing before ft_register_fdump_param
+Error (line 74): comment not well formatted
+Error (line 77): bad spacing before ft_parse_fdump
+Error (line 100): spaces at the end of line
+Error (line 146): multiple empty lines
+Error (line 156): comment not well formatted
+Error (line 163): spaces at the end of line
+Norme: ./src/corewar/src/prep_rout/check_id.c
+Error: file must end with a single empty line
+Error (line 18): bad spacing before ft_control_doubles
+Error (line 88): C++ comment
+Error (line 88): line has 136 characters
+Error (line 88, col 20): bad character after ;
+Error (line 95, col 0): no newline after block
+Norme: ./src/corewar/src/prep_rout/read_champ_file.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 15): parameterized macros are forbidden
+Error (line 16): define must be a constant value
+Error (line 18): comment not well formatted
+Error (line 21): bad spacing before ft_get_magicname
+Error (line 21): declarations must be followed by one empty line in ft_get_magicname
+Error (line 25): spaces at the end of line
+Error (line 46): comment not well formatted
+Error (line 49): bad spacing before ft_get_champ_size
+Error (line 65): comment not well formatted
+Error (line 68): bad spacing before ft_get_champ_comment
+Error (line 85): comment not well formatted
+Error (line 88): Space before function name
+Error (line 88): bad spacing before ft_get_champ_body
+Error (line 88): bad spacing after ft_get_champ_body
+Error (line 88, col 18): bad spacing
+Error (line 102): line has 94 characters
+Error (line 111): multiple empty lines
+Error (line 112): comment not well formatted
+Error (line 115): spaces at the end of line
+Error (line 116): spaces at the end of line
+Error (line 119): bad spacing before ft_read_champ_file
+Error (line 129): bad indentation
+Error (line 132): bad indentation
+Error (line 139, col 2): missing space after return
+Error (line 143, col 0): no newline after block
+Norme: ./src/corewar/src/prep_rout/parse_n_flag.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 19): comment not well formatted
+Error (line 22): bad spacing before ft_register_fn_param
+Error (line 47): comment not well formatted
+Error (line 51): bad spacing before ft_get_n_flag
+Error (line 61, col 0): no newline after block
+Norme: ./src/corewar/src/prep_rout/check_input.c
+Error: global scope bad aligned
+Error (line 17): spaces at the end of line
+Error (line 47): declarations must be followed by one empty line in ft_print_errors
+Error (line 50): spaces at the end of line
+Error (line 74, col 3): missing space after return
+Error (line 79, col 3): missing space after return
+Error (line 107, col 3): missing space after return
+Error (line 109, col 1): missing space after return
+Norme: ./src/corewar/src/prep_rout/read_params.c
+Error: file must end with a single empty line
+Error (line 15): comment not well formatted
+Error (line 21): bad spacing before ft_scan_lines
+Error (line 28): line has 82 characters
+Error (line 28): bad indentation
+Error (line 30): bad indentation
+Error (line 32, col 3): missing space after return
+Error (line 44, col 0): no newline after block
+Norme: ./src/corewar/src/exec/exec_lobby.c
+Error: global scope bad aligned
+Error (line 15): comment not well formatted
+Error (line 19): bad spacing before ft_form_tree
+Norme: ./src/corewar/src/exec/the_cycle.c
+Warning: /Users/LRelar/OneDrive/Docs/21/12-1_corewar/merge_1/./src/corewar/src/exec/the_cycle.c may not compile or is invalid for some reasons.
+Norme: ./src/corewar/src/corewar.c
+Error: file must end with a single empty line
+Error (line 15): preprocessor block must be followed by one empty line
+Error (line 43): comment not well formatted
+Error (line 48): bad spacing before ft_init_world
+Error (line 58): bad spacing after main
+Error (line 58): declarations must be followed by one empty line in main
+Error (line 61): spaces at the end of line
+Error (line 73): Empty line
+Error (line 79): preprocessor block must be followed by one empty line
+Error (line 80): bad spacing before main
+Error (line 89): multiple empty lines
+Norme: ./src/corewar/src/test.c
+Error (line 26): declarations must be followed by one empty line in main
+Error (line 30): spaces at the end of line
+Error (line 32): line has 88 characters
+Norme: ./src/corewar/src/errors/err_champ.c
+Error (line 15): preprocessor block must be followed by one empty line
+Error (line 19): bad spacing before ft_err_not_champ
+Error (line 45): bad spacing before ft_err_invalid_filename
+Error (line 71): bad spacing before ft_err_champ_limit
+Norme: ./src/corewar/src/errors/err_f_n.c
+Error (line 15): comment not well formatted
+Error (line 18): bad spacing before ft_err_fn_notnbr
+Error (line 41): comment not well formatted
+Error (line 44): bad spacing before ft_err_fn_inter
+Norme: ./src/corewar/src/errors/err_champ_mgr.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 15): bad spacing after ft_create_footer
+Error (line 41): multiple empty lines
+Error (line 42): multiple empty lines
+Error (line 43): line has 82 characters
+Error (line 43): bad spacing before ft_create_header
+Error (line 57): line has 87 characters
+Error (line 92): bad spacing before ft_ch_err_manager
+Error (line 104, col 0): no newline after block
+Norme: ./src/corewar/src/errors/err_champ_content.c
+Error (line 21): comment not well formatted
+Error (line 24): bad spacing before ft_err_invalid_cwr_magic
+Error (line 48): comment not well formatted
+Error (line 51): bad spacing before ft_err_invalid_filesize
+Error (line 75): comment not well formatted
+Error (line 78): bad spacing before ft_err_invalid_name
+Error (line 102): comment not well formatted
+Error (line 105): bad spacing before ft_err_invalid_champsize
+Error (line 129): comment not well formatted
+Error (line 132): bad spacing before ft_err_invalid_separator
+Norme: ./src/corewar/src/errors/err_fdump.c
+Error (line 15): comment not well formatted
+Error (line 18): bad spacing before ft_err_fdump_inter
+Error (line 30): line has 100 characters
+Error (line 41): comment not well formatted
+Error (line 44): bad spacing before ft_err_fdump_notnbr
+Norme: ./src/corewar/src/errors/err_comp_params.c
+Error: file must end with a single empty line
+Error (line 22, col 15): bad character after ,
+Error (line 29, col 0): no newline after block
+Norme: ./src/corewar/src/errors/err_champ_content_2.c
+Error: file must end with a single empty line
+Error (line 21): comment not well formatted
+Error (line 24): bad spacing before ft_err_invalid_comment
+Error (line 48): comment not well formatted
+Error (line 51): bad spacing before ft_err_invalid_bodysize
+Error (line 73, col 0): no newline after block
+Norme: ./src/corewar/src/errors/err_gen.c
+Error: global scope bad aligned
+Error: file must end with a single empty line
+Error (line 34, col 7): Spacing after call to free
+Error (line 63, col 7): Spacing after call to free
+Error (line 86, col 7): Spacing after call to free
+Error (line 92): bad spacing after ft_err_id_behind_fighters
+Error (line 109, col 7): Spacing after call to free
+Error (line 115): multiple empty lines
+Error (line 116): bad spacing before ft_show_man
+Error (line 122, col 15): bad character after ,
+Error (line 129, col 0): no newline after block

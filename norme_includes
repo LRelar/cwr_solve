@@ -1,0 +1,9 @@
+Norme: ./includes/op.h
+Error (line 26): define must be a constant value
+Error (line 27): define must be a constant value
+Error (line 28): define must be a constant value
+Error (line 61): define must be a constant value
+Error (line 62): define must be a constant value
+Norme: ./includes/asm.h
+Error (line 27): define must be a constant value
+Norme: ./includes/corewar_error.h
