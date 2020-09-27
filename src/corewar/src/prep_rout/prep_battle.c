@@ -6,7 +6,7 @@
 /*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/03 18:16:19 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/25 01:18:23 by ycorrupt         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:43:43 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ inline static t_list	**ft_build_buff_nt(t_list **head, size_t size)
 }
 
 /*
-*	ПРОВЕРИЛ.	t_arr_sort.c
+**	ПРОВЕРИЛ.	t_arr_sort.c
 */
 
 inline static void		ft_sort_dumps(t_list **head, size_t amount)

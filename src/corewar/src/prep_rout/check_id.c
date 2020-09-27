@@ -6,7 +6,7 @@
 /*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/03 22:13:55 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/25 01:06:09 by ycorrupt         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:43:17 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,8 @@ void					ft_check_id(t_vasa **errors_head, \
 			if (champs[i].id > ch_amount)
 			{
 				ft_err_id_behind_fighters(errors_head, champs[i].name);
-				champs[i].id = 0;												//* No post-decrement as we have predecr in cycle head.
+				champs[i].id = 0;
+				//* No post-decrement as we have predecr in cycle head.
 				continue ;
 			}
 			ft_control_doubles(errors_head, champs, i);

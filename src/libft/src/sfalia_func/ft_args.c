@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_args.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tanya <tanya@student.42.fr>                +#+  +:+       +#+        */
+/*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/12 21:49:25 by andru196          #+#    #+#             */
-/*   Updated: 2020/08/20 00:50:22 by tanya            ###   ########.fr       */
+/*   Updated: 2020/09/26 14:54:37 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ t_arg		*new_arg(char isflag)
 	rez->hasvalue = 0;
 	rez->isflag = isflag;
 	rez->value = NULL;
+	rez->next = NULL;
 	return (rez);
 }
 
@@ -42,6 +43,7 @@ t_args_rez	*new_arguments_cont(void)
 	rez->has_args = 0;
 	rez->flags = NULL;
 	rez->args = NULL;
+	rez->not_expected = NULL;
 	return (rez);
 }
 

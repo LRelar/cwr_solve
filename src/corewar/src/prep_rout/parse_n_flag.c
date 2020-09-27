@@ -6,7 +6,7 @@
 /*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/26 12:38:14 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/25 01:15:58 by ycorrupt         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:45:16 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,6 @@
 
 /*
 ** Check ~/src/prep_rout/parse_fdump.c for hints.
-*/
-
-/*
-*	ПРОВЕРИЛ.
 */
 
 inline static uint8_t	ft_register_fn_param(char *argv, long long *value, \
@@ -46,11 +42,10 @@ inline static uint8_t	ft_register_fn_param(char *argv, long long *value, \
 }
 
 /*
-*	ПРОВЕРИЛ.
 **	++*argv; - to iterate towards declared -n value.
 */
 
-int				ft_get_n_flag(char ***argv, t_world *nexus)
+int						ft_get_n_flag(char ***argv, t_world *nexus)
 {
 	long long	res;
 	uint8_t		flag;

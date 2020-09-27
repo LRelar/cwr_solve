@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   is_digits.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/20 11:53:10 by mschimme          #+#    #+#             */
-/*   Updated: 2020/04/26 13:44:02 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:44:34 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int			ft_are_ndigits(const char *start, const char *end)
 	int		i;
 	char	c;
 
-	i =  (int)start && (end < start);
+	i = (int)start && (end < start);
 	if (!i)
 		return (0);
 	c = *start;
@@ -25,7 +25,6 @@ int			ft_are_ndigits(const char *start, const char *end)
 		if (c < '0' || c > '9')
 			return (0);
 	return (1);
-
 }
 
 int			ft_are_digits(const char *str)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   manage_world.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 14:41:54 by mschimme          #+#    #+#             */
-/*   Updated: 2020/08/25 13:26:07 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:41:58 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,16 +18,17 @@
 **	Временная функция ловить косяк, в случаях, если у нас и nexus пустой, и
 **	guillotine задана жопой. 
 */
+
 static void ft_no_world(void)
 {
 	DEBmesst("Проверяй, где облажался, ты пытаешься удалить арену (nexus), которую не задал!") DEBend()
 	exit(1);
 }
 
-
 /*
 **	We don't clear .desc as it is a part of .name.
 */
+
 void	ft_wipe_champs(t_champ *ptr)
 {
 	// DEBfunc()
@@ -59,6 +60,7 @@ void	ft_wipe_champs(t_champ *ptr)
 			_FT_WIPE_CARRIES((t_list **)&(guillotine->carry), &ft_del);
 !		Если утечки - проверь, чистятся ли каретки.
 */
+
 void	ft_manage_world(t_world *nexus)
 {
 	static t_world *guillotine;
