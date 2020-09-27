@@ -6,7 +6,7 @@
 /*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 21:21:56 by mschimme          #+#    #+#             */
-/*   Updated: 2020/08/01 22:33:51 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/25 17:41:30 by mschimme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
 # include "cwr_funcs.h"
 # include <curses.h>
 # include <sys/ioctl.h>
-# include "little_endian.h"
 
 /*
 **	curses.h - для графического режима.

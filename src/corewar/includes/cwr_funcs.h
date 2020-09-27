@@ -6,7 +6,7 @@
 /*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 21:21:22 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/20 14:34:48 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/25 17:50:21 by mschimme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -175,6 +175,19 @@ intptr_t	ft_calc_addr(intptr_t offset);
 intptr_t	ft_step_size(uint8_t ops_type, uint8_t t_dir_size);
 uint8_t		ft_check_reg_is_valid(uint8_t *arena, uintptr_t ptr);
 
+/*
+******************			swap endian funcs:			************************
+*/
+
+RTP			ft_swap_endian(RTP value, uintptr_t size);
+RTP			ft_swap_endian_one(RTP value);
+RTP			ft_swap_endian_two(RTP value);
+RTP			ft_swap_endian_tri(RTP value);
+RTP			ft_swap_endian_qua(RTP value);
+RTP			ft_swap_endian_pen(RTP value);
+RTP			ft_swap_endian_sex(RTP value);
+RTP			ft_swap_endian_sep(RTP value);
+RTP			ft_swap_endian_oct(RTP value);
 
 /*
 ******************			Built-in test funcs:		************************

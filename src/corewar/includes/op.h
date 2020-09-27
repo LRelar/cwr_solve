@@ -6,7 +6,7 @@
 /*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/10/04 11:33:27 by zaz               #+#    #+#             */
-/*   Updated: 2020/09/20 13:39:48 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/25 19:53:01 by mschimme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 
 #ifndef OP_H
 # define OP_H
-# define IND_SIZE				2
-# define REG_SIZE				1
+# define IND_SIZE				1
+# define REG_SIZE				8
 # define DIR_SIZE				REG_SIZE
 
 # define REG_CODE				1

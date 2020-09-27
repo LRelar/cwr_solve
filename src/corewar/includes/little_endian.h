@@ -6,18 +6,13 @@
 /*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/27 08:49:28 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/20 15:13:25 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/25 17:40:25 by mschimme         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #ifndef LITTLE_ENDIAN_H
 # define LITTLE_ENDIAN_H
-
-# include <cwr.h> 
-RTP	ft_swap_endian_one(RTP value);
-RTP	ft_swap_endian_two(RTP value);
-
-RTP	ft_swap_endian(RTP value, uintptr_t size);
 
 /*
 **			Designations.
