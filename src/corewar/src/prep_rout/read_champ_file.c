@@ -6,7 +6,7 @@
 /*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/05 10:55:21 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/25 00:55:58 by ycorrupt         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:37:17 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,6 @@
 
 #define _WRONG_SEPARATOR(x, y) (*(_SEP_TYPE *)(x + y) != 0)
 #define CH_NAME curr->name
-
-/*
-*	ПРОВЕРИЛ.
-*/
 
 inline static void		ft_get_magicname(int fd, t_vasa **error, t_champ *curr)
 {
@@ -44,10 +40,6 @@ inline static void		ft_get_magicname(int fd, t_vasa **error, t_champ *curr)
 		ft_err_invalid_separator(error, "between Name and Comment.");
 }
 
-/*
-*	ПРОВЕРИЛ.
-*/
-
 inline static void		ft_get_champ_size(int fd, \
 										t_vasa **champ_error, t_champ *champ)
 {
@@ -63,10 +55,6 @@ inline static void		ft_get_champ_size(int fd, \
 	if (champ->size > CHAMP_MAX_SIZE)
 		ft_err_invalid_champsize(champ_error, NULL);
 }
-
-/*
-*	ПРОВЕРИЛ.
-*/
 
 inline static void		ft_get_champ_comment(int fd, \
 										t_vasa **champ_error, t_champ *champ)
@@ -84,10 +72,6 @@ inline static void		ft_get_champ_comment(int fd, \
 	if (_WRONG_SEPARATOR(champ->desc, COMMENT_LENGTH))
 		ft_err_invalid_separator(champ_error, "between Comment and Body.");
 }
-
-/*
-*	ПРОВЕРИЛ.
-*/
 
 inline static void		ft_get_champ_body(int fd, \
 										t_vasa **champ_error, t_champ *champ)
@@ -114,7 +98,6 @@ inline static void		ft_get_champ_body(int fd, \
 }
 
 /*
-*	ПРОВЕРИЛ.
 **	int *offset из корня функций можно использовать для подсчета успешно загру-
 **	женных чемпионов. Тогда эта функция должна возвращать int 1, если мы
 **	успешно прочитали чемпиона и int 0, если облажалилсь. *offset +=

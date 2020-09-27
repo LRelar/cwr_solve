@@ -6,7 +6,7 @@
 /*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/14 17:38:48 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/25 00:48:34 by ycorrupt         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:49:17 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ inline static uint8_t	ft_init_champs_r(t_world *nexus)
 /*
 **	We don't use ft_init_champs_r return status as we either exit with malloc
 **	error, or continue the run.
-!	cyc_to_die выставлен в CYCLE_TO_DIE, т.к. нулевой цикл - тоже цикл.
+**!	cyc_to_die выставлен в CYCLE_TO_DIE, т.к. нулевой цикл - тоже цикл.
 */
 
 inline static void		ft_init_world(t_world *nexus)
@@ -60,7 +60,7 @@ inline static void		ft_init_world(t_world *nexus)
 int						main(int argc, char **argv)
 {
 	t_world				nexus;
-	
+
 	ft_init_world(&nexus);
 	nexus.progname = *argv;
 	argv++;
@@ -79,6 +79,7 @@ int						main(int argc, char **argv)
 #endif
 
 #ifdef FAULT_LAUNCH
+
 int						main(int argc, char **argv)
 {
 	(void)argc;
@@ -86,4 +87,5 @@ int						main(int argc, char **argv)
 	ft_show_compconf();
 	return (0);
 }
+
 #endif

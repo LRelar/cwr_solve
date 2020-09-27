@@ -1,41 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   is_digits.c                                        :+:      :+:    :+:   */
+/*   test.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/20 11:53:10 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/26 13:44:34 by ycorrupt         ###   ########.fr       */
+/*   Created: 2020/01/13 22:40:49 by mschimme          #+#    #+#             */
+/*   Updated: 2020/09/26 13:38:17 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <cwr.h>
 
-int			ft_are_ndigits(const char *start, const char *end)
+static t_carry	*ft_init_carry(uint8_t op)
 {
-	int		i;
-	char	c;
+	static int	id;
+	t_carry		*entry;
 
-	i = (int)start && (end < start);
-	if (!i)
-		return (0);
-	c = *start;
-	while ((start != end) && (c = *start++))
-		if (c < '0' || c > '9')
-			return (0);
-	return (1);
+	entry = (t_carry *)ft_memalloc(sizeof(t_carry));
+	entry->id = id++;
+	entry->op = op;
+	return (entry);
 }
 
-int			ft_are_digits(const char *str)
+int				main(void)
 {
-	char	c;
+	t_carry		*carry;
+	t_vasa		*check;
 
-	if (!str)
-		return (0);
-	c = *str;
-	while ((c = *str++))
-		if (c < '0' || c > '9')
-			return (0);
-	return (1);
+	check = (t_vasa *)ft_lstnew_r((void *)ft_init_carry(1), sizeof(t_carry));
+	ft_lstadd((t_list **)&check, ft_lstnew((void *)ft_init_carry(2),
+	sizeof(t_carry)));
+	return (0);
 }

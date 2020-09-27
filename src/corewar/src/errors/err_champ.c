@@ -3,19 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   err_champ.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mschimme <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ycorrupt <ycorrupt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/26 20:29:33 by mschimme          #+#    #+#             */
-/*   Updated: 2020/09/13 22:00:12 by mschimme         ###   ########.fr       */
+/*   Updated: 2020/09/26 13:45:52 by ycorrupt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <cwr.h>
 
 #define _PLAYER_LIM "This and subsequent champions are beyond MAX_PLAYERS."
+
 /*
 **	//? В процессе проверки.
 */
+
 void		ft_err_not_champ(t_vasa **head, void *object)
 {
 	t_vasa	*current;
@@ -42,6 +44,7 @@ void		ft_err_not_champ(t_vasa **head, void *object)
 /*
 **	//? В процессе проверки.
 */
+
 void		ft_err_invalid_filename(t_vasa **head, void *object)
 {
 	t_vasa	*current;
@@ -68,6 +71,7 @@ void		ft_err_invalid_filename(t_vasa **head, void *object)
 /*
 **	//? В процессе проверки.
 */
+
 void		ft_err_champ_limit(t_vasa **head, void *object)
 {
 	t_vasa	*current;
